@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etch-a-Sketch</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+</head>
+<body>
+  <header>Etch-a-Sketch</header>
+  <div id='container'>
+
+  </div>
+  <script>
+
+    // Your JavaScript goes here!
+  
+    let n=16, i=-1, j=0, s='';
+
+    while(++i<n) {
+      s+= '<div class="row">'
+      for(j=0; j<n; j++) s+= `<div class="cell"> ${(i*n+j).toString(16)} </div>`;
+      s+= '</div>'
+  }
+
+    container.innerHTML = s;
+    
+    const modeSketch = document.querySelectorAll('.cell');
+
+
+  </script>
+</body>
+</html>

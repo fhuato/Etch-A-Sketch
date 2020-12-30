@@ -1,0 +1,41 @@
+/* CSS STYLE SHEET */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  font-family: 'Lobster';
+  color: #E8CAB9;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #2e2b33;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.row { 
+  display: flex;
+  font-size: 0px;
+  border-color: #afc0e3;
+  
+
+}
+.cell { 
+  padding: 10px;
+  width: 10px; 
+  height: 10px; 
+  margin: 0px; 
+  border: 1px solid #afc0e3; 
+
+}
